@@ -10,9 +10,10 @@ import { clearErrors} from '../../actions/userAction.jsx';
 import { useAlert } from 'react-alert';
 import axios from 'axios';
 import MetaData from '../layout/MetaData.jsx';
-import LockOpenIcon from "@material-ui/icons/LockOpen";
-import LockIcon from "@material-ui/icons/Lock";
-import VpnKeyIcon from "@material-ui/icons/VpnKey";
+import LockOpenIcon from "@mui/icons-material/LockOpen"; // Updated for MUI v5
+import LockIcon from "@mui/icons-material/Lock"; // Updated for MUI v5
+import VpnKeyIcon from "@mui/icons-material/VpnKey"; // Updated for MUI v5
+
 const UpdateProfile=()=>{
     
         const dispatch = useDispatch();

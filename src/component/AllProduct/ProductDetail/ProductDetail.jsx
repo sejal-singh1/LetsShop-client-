@@ -15,8 +15,9 @@ import {Dialog,
   DialogActions,
   DialogContent,
   DialogTitle,
-  Button,} from "@material-ui/core";
-  import {Rating} from "@material-ui/lab";
+  Button,
+Rating} from  "@mui/material";
+  
   import {
     
     newReview,

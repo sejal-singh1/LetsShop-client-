@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import './Cart.css';
-import DeleteIcon from "@material-ui/icons/Delete";
+import DeleteIcon from "@mui/icons-material/Delete"; 
 import { Link } from 'react-router-dom';
 
 import { addItemsToCart,removeItemsFromCart } from '../../actions/cartAction';

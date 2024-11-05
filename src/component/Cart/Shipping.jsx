@@ -1,20 +1,21 @@
 import './Shipping.css';
-import  { Fragment, useState } from "react";
-import { saveShippingInfo } from "../../actions/cartAction.jsx";
-import MetaData from "../layout/MetaData.jsx";
-import PinDropIcon from "@material-ui/icons/PinDrop";
-import HomeIcon from "@material-ui/icons/Home";
-import LocationCityIcon from "@material-ui/icons/LocationCity";
-import PublicIcon from "@material-ui/icons/Public";
-import PhoneIcon from "@material-ui/icons/Phone";
-import TransferWithinAStationIcon from "@material-ui/icons/TransferWithinAStation"; 
-import ApartmentTwoToneIcon from '@material-ui/icons/ApartmentTwoTone';
-import EmojiTransportationTwoToneIcon from '@material-ui/icons/EmojiTransportationTwoTone';
-import { Country   } from "country-state-city";
+import { Fragment, useState } from "react";
+import { saveShippingInfo } from "../../actions/cartAction";
+import MetaData from "../layout/MetaData";
+import PinDropIcon from "@mui/icons-material/PinDrop"; // Updated import for MUI v5
+import HomeIcon from "@mui/icons-material/Home";
+import LocationCityIcon from "@mui/icons-material/LocationCity";
+import PublicIcon from "@mui/icons-material/Public";
+import PhoneIcon from "@mui/icons-material/Phone";
+import TransferWithinAStationIcon from "@mui/icons-material/TransferWithinAStation"; 
+import ApartmentTwoToneIcon from '@mui/icons-material/ApartmentTwoTone';
+import EmojiTransportationTwoToneIcon from '@mui/icons-material/EmojiTransportationTwoTone';
+import { Country } from "country-state-city";
 import { useAlert } from "react-alert";
-import { useDispatch,useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import CheckoutSteps from "./CheckoutSteps.jsx";
+import CheckoutSteps from "./CheckoutSteps";
+
 const Shipping= ()=>{ 
 const navigate=useNavigate();
     const dispatch = useDispatch();

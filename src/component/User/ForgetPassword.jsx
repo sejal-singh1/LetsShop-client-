@@ -2,8 +2,8 @@
 import './ForgetPassword.css';
 
 import { Fragment ,useState,useEffect} from 'react';
+import MailOutlineIcon from "@mui/icons-material/MailOutline"; // Updated for MUI v5
 
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import Loadar from '../layout/Loadar/lodar.jsx';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearErrors} from '../../actions/userAction.jsx';  

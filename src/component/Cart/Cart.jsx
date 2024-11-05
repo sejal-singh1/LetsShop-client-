@@ -4,8 +4,8 @@ import './Cart.css';
 
 import {  useSelector } from 'react-redux';
 import { Fragment } from 'react';
-import RemoveShoppingCartIcon from "@material-ui/icons/RemoveShoppingCart";
-import { Typography } from '@material-ui/core';
+import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart"; 
+import { Typography } from '@mui/material'; 
 import { Link } from 'react-router-dom';
 import { useNavigate} from "react-router-dom";
 

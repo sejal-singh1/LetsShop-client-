@@ -8,8 +8,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearErrors } from "../../actions/userAction.jsx";
 import { useAlert } from "react-alert";
 import MetaData from "../layout/MetaData.jsx";
-import LockOpenIcon from "@material-ui/icons/LockOpen";
-import LockIcon from "@material-ui/icons/Lock";
+import LockOpenIcon from "@mui/icons-material/LockOpen"; // Updated for MUI v5
+import LockIcon from "@mui/icons-material/Lock"; // Updated for MUI v5
+
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useParams } from "react-router-dom";

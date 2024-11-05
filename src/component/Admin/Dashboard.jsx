@@ -3,7 +3,7 @@
 import  { useEffect } from "react";
 import Sidebar from "./Sidebar";
 import "./Dashboard.css";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import { Doughnut, Line } from "react-chartjs-2";
 import { Chart,LinearScale, ArcElement, CategoryScale, LineController, LineElement, PointElement, Tooltip, Legend } from 'chart.js';

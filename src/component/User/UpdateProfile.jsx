@@ -2,8 +2,8 @@ import './UpdateProfile.css';
 
 import { Fragment ,useState,useEffect} from 'react';
 import { useNavigate} from "react-router-dom";
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import FaceIcon from "@material-ui/icons/Face";
+import MailOutlineIcon from "@mui/icons-material/MailOutline"; // Updated for MUI v5
+import FaceIcon from "@mui/icons-material/Face"; // Updated for MUI v5
 
 import Loadar from '../layout/Loadar/lodar.jsx';
 import { useDispatch, useSelector } from 'react-redux';

@@ -2,9 +2,9 @@ import './LoginSignu.css'
 
 import { Fragment,useRef ,useState,useEffect} from 'react';
 import { Link,useNavigate} from "react-router-dom";
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import LockOpenIcon from "@material-ui/icons/LockOpen"
-import FaceIcon from "@material-ui/icons/Face";
+import MailOutlineIcon from "@mui/icons-material/MailOutline"; // Updated for MUI v5
+import LockOpenIcon from "@mui/icons-material/LockOpen"; // Updated for MUI v5
+import FaceIcon from "@mui/icons-material/Face"; // Updated for MUI v5
 
 import Loadar from '../layout/Loadar/lodar.jsx';
 import { useDispatch, useSelector } from 'react-redux';

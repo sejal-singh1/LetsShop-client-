@@ -5,9 +5,7 @@ import Product from "../../Home/Product/Product.jsx";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import './Product.css'
-import Slider from "@material-ui/core/Slider"
-import Typography from "@material-ui/core/Typography";
-
+import { Slider, Typography } from "@mui/material"; 
 
 
 const Categories=[

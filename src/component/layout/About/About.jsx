@@ -1,6 +1,6 @@
 
 import "./aboutSection.css";
-import { Button, Typography, Avatar } from "@material-ui/core";
+import { Button, Typography, Avatar } from "@mui/material";
 
 const About = () => {
   const visitInstagram = () => {
